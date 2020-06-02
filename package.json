@@ -1,0 +1,25 @@
+{
+	"name": "cucumber-testing",
+	"version": "1.0.0",
+	"description": "Cucumber Cypress Testing",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:tests": "cypress run"
+	},
+	"keywords": [
+		"Cypress",
+		"Cucumber",
+		"BDD"
+	],
+	"author": "GZ",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^4.7.0",
+		"cypress-cucumber-preprocessor": "^2.4.0",
+		"prettier": "^2.0.5"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true
+	}
+}
